@@ -18,7 +18,12 @@ h2{color:#ffb703;margin-bottom:20px}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
 .card{background:#1d1d1d;padding:20px;border-radius:12px;border:1px solid #333}
 .price{color:#ffb703;font-weight:bold}
-.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.gallery img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:12px;
+    border:2px solid #ffb703;}
 .photo{height:220px;background:#222;border:2px dashed #ffb703;border-radius:12px;display:flex;align-items:center;justify-content:center;text-align:center;padding:10px}
 footer{background:#1a1a1a;text-align:center;padding:30px}
 .location{background:#1d1d1d;padding:20px;border-radius:12px}
